@@ -57,10 +57,18 @@ const longestCommonPrefix = function(strs) {
 };
 ```
 ******
-## Experience
+## Experience:
 ### Some of my course tasks:
 * [An application for selling things (like Lalafo, etc.).](https://github.com/iisakjanova/js_group_10_exam_11_irina_isakzhanova.git
 ) On home page items are divided into categories.  Page with detailed info about the item and seller opens by clicking on the item card. Implemented authorization and adding new items for authorized users.
 * [A forum app](https://github.com/iisakjanova/js_group_10_homework_87_irina_isakzhanova.git) with an authorization where users can attach images and comment on posts.
 * [A phone book application (contact list).](https://github.com/iisakjanova/js_group_10_exam_9_irina_isakzhanova.git) On home page contacts are shown. Page with a form for adding a new contact is opened by clicking the "add" button. The modal with "edit" and "remove" options is opened by clicking on the contact.
 * [Todo list.](https://github.com/iisakjanova/TodoList.git) An application for creating a list of things are to be done throughout the day. Adding new, editing, removing and showing tasks is implemented.
+******
+## Education:
+* January 2021 - November 2021. Attractor School Bishkek. Web-developer JavaScript (React + Node.js) courses with the highest current and exam grades among the group students
+* 2005 - 2010. Bishkek Financial and Economic Academy. Diploma: Bachelor in Accounting, Analysis and Auditing
+******
+## Languages:
+* Russian - Native
+* English - Intermediate
