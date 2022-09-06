@@ -27,3 +27,40 @@ I developed responsive, cross-browser adaptive web pages using HTML, CSS (includ
 I have experience developing backend REST API using node.js, express.js, bcrypt, CORS, mongoDB, mongoose, postgreSQL. 
 ### Git
 While working on my projects, I used Git for storing and managing my code.
+******
+## Code example:
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+```
+const longestCommonPrefix = function(strs) {
+    if (strs.length === 1) {
+        return strs[0];
+    }
+    
+    let prefix = '';
+    const firstWord = strs[0];
+    
+    for (let i = 0; i < firstWord.length; i++) {
+        for (let j = 1; j < strs.length; j++ ) {
+            const currentWord = strs[j];
+            
+            if (firstWord[i] !== currentWord[i]) {
+                return prefix;
+            }
+        }
+        
+        prefix = prefix + firstWord[i];
+    }
+    
+    return prefix;
+};
+```
+******
+## Experience
+### Some of my course tasks:
+* [An application for selling things (like Lalafo, etc.).](https://github.com/iisakjanova/js_group_10_exam_11_irina_isakzhanova.git
+) On home page items are divided into categories.  Page with detailed info about the item and seller opens by clicking on the item card. Implemented authorization and adding new items for authorized users.
+* [A forum app](https://github.com/iisakjanova/js_group_10_homework_87_irina_isakzhanova.git) with an authorization where users can attach images and comment on posts.
+* [A phone book application (contact list).](https://github.com/iisakjanova/js_group_10_exam_9_irina_isakzhanova.git) On home page contacts are shown. Page with a form for adding a new contact is opened by clicking the "add" button. The modal with "edit" and "remove" options is opened by clicking on the contact.
+* [Todo list.](https://github.com/iisakjanova/TodoList.git) An application for creating a list of things are to be done throughout the day. Adding new, editing, removing and showing tasks is implemented.
